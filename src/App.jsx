@@ -50,7 +50,6 @@ class App extends React.Component {
 
     /*Uncomment below to render assignments*/
     if (this.state.buttonClicked === "assignments") {
-      window.alert("you have clicked on: assignments");
       tabChoice = (
         <List
           placeholder="Add Assignment..."
